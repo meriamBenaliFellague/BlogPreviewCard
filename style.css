@@ -24,6 +24,8 @@ body{
   font-size: var(--font-size);
   font-family: var(--font-family);
   background-color: var(--Yellow);
+  justify-content: center;
+  align-items: center;
 }
 
 main{
@@ -32,8 +34,6 @@ main{
   border-radius: 20px;
   width: 380px;
   height: 520px;
-  margin-left: 35%;
-  margin-top: 13.5%;
   display: grid;
   grid-template-rows: 220px 63px 40px 43px 90px 50px;
   grid-template-columns: 1fr;
@@ -84,19 +84,10 @@ footer > p{
 }
 
 @media (max-width: 400px){
-  body{
-    display: flex;
-    place-items: center;
-  }
-
   main{
     width: 88%;
     height: 520px;
-    margin-left: 5%;
-    margin-top: 15%;
-    display: grid;
   }
-
   .img-header {
     width: 93%;
   }
